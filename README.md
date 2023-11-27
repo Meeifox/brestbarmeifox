@@ -13,7 +13,7 @@ Follow these steps to get the project up and running on your local machine:
 1. Clone the Git repository to your workspace:
 
     ```bash
-    git clone [https://github.com/Meeifox/brestbarmeifox/]
+    git clone https://github.com/Meeifox/brestbarmeifox/
     ```
 
 2. Open your command line interface (CMD).
