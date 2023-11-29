@@ -33,11 +33,11 @@ Follow these steps to get the project up and running on your local machine:
 5. Type one of the following commands based on your package manager:
 
     - `npm run dev`
-    or
+    
     - `yarn dev`
-    or
+    
     - `pnpm dev`
-    or
+   
     - `bun dev`
 
 6. Open your web browser and navigate to http://localhost:3000 to view the result.
