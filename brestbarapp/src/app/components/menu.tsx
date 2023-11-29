@@ -45,6 +45,10 @@ const NavigateMenu = () => {
                     </div>
                 </div>
                 <BrestMap />
+                </div>                
+            </section>
+            <section>
+            <BrestMap />
             </section>
         </div>
     );
