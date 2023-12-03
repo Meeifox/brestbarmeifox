@@ -3,7 +3,7 @@
 This repository serves as a test project for a job application.
 
 **Start date:** 27/11/2023  
-**Technologies used:** NextJS, TailwindCSS, SASS
+**Technologies used:** NextJS, TailwindCSS, SASS  
 **Author:** N PORTIER
 
 ## How to Launch
@@ -16,32 +16,32 @@ Follow these steps to get the project up and running on your local machine:
     git clone https://github.com/Meeifox/brestbarmeifox/
     ```
 
-2. Open your command line interface (CMD).
-
-3. Type one of the following commands based on your package manager:
+2. Navigate to the project directory:
 
     ```bash
-    npm run dev
+    cd brestbarmeifox
     ```
 
-    or
+3. Install the project dependencies:
 
     ```bash
-    yarn dev
+    npm install
     ```
 
-    or
+4. Open your command line interface (CMD).
 
-    ```bash
-    pnpm dev
-    ```
+5. Type one of the following commands based on your package manager:
 
-    or
+    - `npm run dev`
+    
+    - `yarn dev`
+    
+    - `pnpm dev`
+   
+    - `bun dev`
 
-    ```bash
-    bun dev
-    ```
+6. Open your web browser and navigate to http://localhost:3000 to view the result.
 
-4. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to view the result.
+7. Enjoy exploring the project!
 
-Enjoy exploring the project!
+## Footer
