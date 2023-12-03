@@ -13,8 +13,14 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      
+      '.scrollable-section': {
+        maxHeight: '400px', 
+        overflowY: 'auto', 
+      },
     },
   },
   plugins: [],
 }
+
 export default config

@@ -5,10 +5,9 @@ import 'leaflet/dist/leaflet.css';
 
 export default function Home() {
   return (
-    <div>
+    <div className="h-screen flex flex-col overflow-hidden">
       <NavBar />
       <NavigateMenu />
-
     </div>
   );
 }

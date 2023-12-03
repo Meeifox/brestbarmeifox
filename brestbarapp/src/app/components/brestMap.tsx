@@ -15,9 +15,9 @@ interface MapProps {
 const BrestMap: React.FC<MapProps> = ({ bars }) => {
     return (
         <MapContainer
-            center={[48.3831122, -4.4834526]} // Coordonnées de Brest (à ajuster selon vos besoins)
+            center={[48.3831122, -4.4834526]} // Coordonnées de Brest 
             zoom={13}
-            style={{ height: '1000', width: '100%' }}
+            style={{ height: '1000px', width: '100%' }}
         >
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

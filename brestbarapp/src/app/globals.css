@@ -16,6 +16,19 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2c2c2c; 
+  border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #1f1f1f; 
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,4 +37,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.beautiful-scroll {
+    scrollbar-width: thin !important;
+    scrollbar-color: #2c2c2c #1f1f1f !important;
 }

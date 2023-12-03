@@ -57,16 +57,21 @@ const BarCard: React.FC<BarCardProps> = ({ barData }) => {
         : [];
 
     return (
-        <div>
-            <h2>{name}</h2>
-            <p>{location.distance} KM - {address}</p>
-            <p>Rating: {rating}</p>
-            <p>Phone: {formatted_phone_number}</p>
-            <p>Total Ratings: {user_ratings_total}</p>
-            {opening_hours && (
-                <p>Opening Hours: {openingHoursArray.join(', ')}</p>
-            )}
-            <p>Website: <a href={website} target="_blank" rel="noopener noreferrer">{website}</a></p>
+        <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-4 rounded-2xl bg-gray-secondary p-6 text-white">
+                <div className="flex items-center justify-between">
+                    <div className="flex w-4/5 flex-col">
+                        <p className="font-bold uppercase text-violet">Bar</p>
+                        <h2 className="text-2xl font-bold">{name}</h2>
+                        <p className="relative truncate text-violet">🏃&zwj;♂️ <strong className="uppercase">{location.distance} KM</strong> - {address}</p>
+                    </div>
+                    <button type="button" aria-label="show on map" className="aspect-square rounded-full bg-violet p-4">👁️ </button>
+                </div>
+                <div className="flex items-center gap-3">
+                    <div className="rounded-full px-4 font-semibold bg-sportif/30 text-sportif">Au chaud</div>
+                    <div className="rounded-full px-4 font-semibold bg-sportif/30 text-sportif">✈️ Exotique</div>
+                </div>
+            </div>
         </div>
     );
 };
