@@ -1,12 +1,13 @@
-# BrestBarMeifox
+# 🍻 BrestBarMeifox
 
 This repository serves as a test project for a job application.
+![Preview](https://image.noelshack.com/fichiers/2023/49/2/1701777807-brestbarapp.jpg)
 
-**Start date:** 27/11/2023  
-**Technologies used:** NextJS, TailwindCSS, SASS  
-**Author:** N PORTIER
+**Date:** 📅 From 27/11/2023 to 05/12/2023  
+**Technologies used:** ⚛️ NextJS, 🎨 TailwindCSS, 🍃 Leaflet, 🎨 CSS, 🧰 TypeScript  
+**Author:** 👩‍💻 N PORTIER
 
-## How to Launch
+## How to Launch 🚀
 
 Follow these steps to get the project up and running on your local machine:
 
@@ -20,6 +21,11 @@ Follow these steps to get the project up and running on your local machine:
 
     ```bash
     cd brestbarmeifox
+    ```
+    and
+
+     ```bash
+    cd brestbarapp
     ```
 
 3. Install the project dependencies:
@@ -42,6 +48,6 @@ Follow these steps to get the project up and running on your local machine:
 
 6. Open your web browser and navigate to http://localhost:3000 to view the result.
 
-7. Enjoy exploring the project!
+7. Enjoy exploring the project! 🌟
 
-## Footer
+Thank you for your visit! 🙌
