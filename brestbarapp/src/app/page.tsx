@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./components/navBar/navBar";
-import NavigateMenu from "./components/menu";
+import NavigateMenu from "./components/menu/menu";
 import 'leaflet/dist/leaflet.css';
 
 export default function Home() {
